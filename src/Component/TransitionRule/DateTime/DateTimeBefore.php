@@ -2,13 +2,8 @@
 
 namespace Chunkwan\WorkflowReviser\Component\TransitionRule\DateTime;
 
-<<<<<<< HEAD:src/Component/TransitionRule/DateTime/DateTimeBefore.php
-namespace Chunkwan\WorkflowReviser\Component\TransitionRule\DateTime;
-
-=======
->>>>>>> 01bda66bcc6e2f87691c09d83b5b16ba3e80083c:src/Component/TransitionRule/DateTime/DateTimeBefore.php
-use DateTimeInterface;
 use Chunkwan\WorkflowReviser\Component\AbstractReviser;
+use DateTimeInterface;
 
 class DateTimeBefore extends AbstractReviser
 {

@@ -1,8 +1,5 @@
 <?php
-<<<<<<< HEAD:src/Component/TransitionRule/Common/NotNull.php
-=======
 
->>>>>>> 01bda66bcc6e2f87691c09d83b5b16ba3e80083c:src/Component/TransitionRule/Common/NotNull.php
 namespace Chunkwan\WorkflowReviser\Component\TransitionRule\Common;
 
 use Chunkwan\WorkflowReviser\Component\AbstractReviser;

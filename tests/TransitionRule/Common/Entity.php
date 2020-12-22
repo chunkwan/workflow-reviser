@@ -1,6 +1,6 @@
 <?php
 
-namespace Reknil\WorkflowReviser\Tests\TransitionRule\Common;
+namespace Chunkwan\WorkflowReviser\Tests\TransitionRule\Common;
 
 class Entity
 {

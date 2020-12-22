@@ -2,9 +2,9 @@
 
 namespace Chunkwan\WorkflowReviser\Component\TransitionRule\Countable;
 
+use Chunkwan\WorkflowReviser\Component\AbstractReviser;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\PersistentCollection;
-use Chunkwan\WorkflowReviser\Component\AbstractReviser;
 
 class CountLess extends AbstractReviser
 {
@@ -12,6 +12,7 @@ class CountLess extends AbstractReviser
     {
         foreach ($this->validations as $field => $condition) {
             $method = $this->getMethod($field);
+
             if (null !== $method) {
                 $checkProperty = $this->entity->$method();
 

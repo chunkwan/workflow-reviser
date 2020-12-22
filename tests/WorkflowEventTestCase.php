@@ -1,6 +1,6 @@
 <?php
 
-namespace Reknil\WorkflowReviser\Tests;
+namespace Chunkwan\WorkflowReviser\Tests;
 
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Workflow\Event\GuardEvent;

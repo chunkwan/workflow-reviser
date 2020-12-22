@@ -2,9 +2,9 @@
 
 namespace Chunkwan\WorkflowReviser\Component\TransitionRule\Countable;
 
+use Chunkwan\WorkflowReviser\Component\AbstractReviser;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\PersistentCollection;
-use Chunkwan\WorkflowReviser\Component\AbstractReviser;
 
 class CountMore extends AbstractReviser
 {
