@@ -2,14 +2,9 @@
 
 namespace Chunkwan\WorkflowReviser\Component\TransitionRule\Countable;
 
-<<<<<<< HEAD:src/Component/TransitionRule/Countable/CountEqual.php
-namespace Chunkwan\WorkflowReviser\Component\TransitionRule\Countable;
-
-=======
->>>>>>> 01bda66bcc6e2f87691c09d83b5b16ba3e80083c:src/Component/TransitionRule/Countable/CountEqual.php
+use Chunkwan\WorkflowReviser\Component\AbstractReviser;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\PersistentCollection;
-use Chunkwan\WorkflowReviser\Component\AbstractReviser;
 
 class CountEqual extends AbstractReviser
 {
@@ -40,11 +35,7 @@ class CountEqual extends AbstractReviser
                 }
                 $this->event->setBlocked(
                     true,
-<<<<<<< HEAD:src/Component/TransitionRule/Countable/CountEqual.php
-                    sprintf(
-=======
                     \sprintf(
->>>>>>> 01bda66bcc6e2f87691c09d83b5b16ba3e80083c:src/Component/TransitionRule/Countable/CountEqual.php
                         'The field "%s" cannot be verified. Check transition rule "%s" in workflow "%s". Make sure the field is PersistentCollection/ArrayCollection/Array type!',
                         $field,
                         $this->event->getTransition()->getName(),

@@ -2,8 +2,8 @@
 
 namespace Chunkwan\WorkflowReviser\Component\TransitionRule\DateTime;
 
-use DateTimeInterface;
 use Chunkwan\WorkflowReviser\Component\AbstractReviser;
+use DateTimeInterface;
 
 class DateTimeEqual extends AbstractReviser
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Reknil\WorkflowReviser\Tests\TransitionRule\Common;
+namespace Chunkwan\WorkflowReviser\Tests\TransitionRule\Common;
 
-use Reknil\WorkflowReviser\Component\TransitionRule\Common\NotNull;
-use Reknil\WorkflowReviser\Tests\WorkflowEventTestCase;
+use Chunkwan\WorkflowReviser\Component\TransitionRule\Common\NotNull;
+use Chunkwan\WorkflowReviser\Tests\WorkflowEventTestCase;
 
 class NotNullTest extends WorkflowEventTestCase
 {

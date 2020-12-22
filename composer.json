@@ -37,5 +37,10 @@
         "psr-4": {
             "Chunkwan\\WorkflowReviser\\Tests\\": "tests/"
         }
+    },
+    "scripts": {
+        "test" : "vendor/bin/phpunit tests",
+        "phpfixer-src" : " vendor/bin/php-cs-fixer fix --dry-run --using-cache=no --config=.php_cs.dist src",
+        "phpfixer-tests" : " vendor/bin/php-cs-fixer fix --dry-run --using-cache=no --config=.php_cs.dist tests"
     }
 }
