@@ -41,7 +41,7 @@ abstract class AbstractReviser implements ReviserInterface
         $this->event->setBlocked(
             true,
             \sprintf(
-                'Поле "%s" не может быть проверено на заполнение. Данное поле отсувствует. Проверте правило перехода "%s" в маршруте "%s"',
+                'Field "%s" can\t be check. Filed not found. Check transition rule "%s" in "%s" workflow',
                 $field,
                 $this->event->getTransition()->getName(),
                 $this->event->getWorkflow()->getName()
