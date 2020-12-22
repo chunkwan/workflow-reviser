@@ -1,0 +1,41 @@
+{
+    "name": "chunkwan/workflow-reviser",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "description": "Symfony Workflow transition Guard rules",
+    "authors": [
+        {
+            "name": "Park Anton",
+            "email": "p.antoha88@gmail.com"
+        },
+        {
+            "name": "Pronin Max",
+            "email": "masiapronin123@gmail.com",
+            "role": "Analisys|Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "ext-ctype": "*",
+        "ext-iconv": "*",
+        "symfony/framework-bundle": "5.2.*",
+        "symfony/workflow": "^5.2",
+        "symfony/orm-pack": "^2.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.17",
+        "phpunit/phpunit": "^9.5",
+        "symfony/phpunit-bridge": "^5.2"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Chunkwan\\WorkflowReviser\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chunkwan\\WorkflowReviser\\Tests\\": "tests/"
+        }
+    }
+}
