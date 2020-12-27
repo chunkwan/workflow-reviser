@@ -5,7 +5,7 @@ namespace Chunkwan\WorkflowReviser\Component\TransitionRule\Date;
 use Chunkwan\WorkflowReviser\Component\AbstractReviser;
 use DateTimeInterface;
 
-class DateEqual extends AbstractReviser
+class DateBefore extends AbstractReviser
 {
     public function lookup(): void
     {
@@ -14,7 +14,7 @@ class DateEqual extends AbstractReviser
             if (null !== $method) {
                 $checkProperty = $this->entity->$method();
                 if ($checkProperty instanceof DateTimeInterface and $condition[0] instanceof DateTimeInterface) {
-                    if ($checkProperty->getTimestamp() !== $condition[0]->getTimestamp()) {
+                    if ($checkProperty->getTimestamp() > $condition[0]->getTimestamp()) {
                         $this->event->setBlocked(true, $condition[1]);
                     }
                     continue;
