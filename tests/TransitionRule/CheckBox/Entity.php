@@ -2,16 +2,12 @@
 
 namespace Chunkwan\WorkflowReviser\Tests\TransitionRule\CheckBox;
 
-
-use phpDocumentor\Reflection\Types\Boolean;
-
 class Entity
 {
-    private Bool $checkbox;
-
+    private bool $checkbox;
 
     /**
-     * @return boolean
+     * @return bool
      */
     public function getCheckbox(): ?bool
     {
@@ -19,11 +15,10 @@ class Entity
     }
 
     /**
-     * @param boolean $val
+     * @param bool $val
      */
     public function setCheckbox(?bool $val): void
     {
-//        die('123- '.$val);
         $this->checkbox = $val;
     }
 }

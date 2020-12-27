@@ -12,7 +12,7 @@ class IsNotCheck extends AbstractReviser
             $method = $this->getMethod($field);
             if (null !== $method) {
                 if (\is_bool($this->entity->$method())) {
-                    if (!$this->entity->$method()) {
+                    if ($this->entity->$method()) {
                         $this->event->setBlocked(true, $message);
                     }
                     continue;

@@ -13,9 +13,8 @@ class DateEqual extends AbstractReviser
             $method = $this->getMethod($field);
             if (null !== $method) {
                 $checkProperty = $this->entity->$method();
-
                 if ($checkProperty instanceof DateTimeInterface and $condition[0] instanceof DateTimeInterface) {
-                    if ($checkProperty !== $condition[0]) {
+                    if ($checkProperty->getTimestamp() !== $condition[0]->getTimestamp()) {
                         $this->event->setBlocked(true, $condition[1]);
                     }
                     continue;

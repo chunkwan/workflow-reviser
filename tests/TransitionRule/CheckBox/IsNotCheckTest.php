@@ -19,23 +19,23 @@ class IsNotCheckTest extends WorkflowEventTestCase
     public function testWithFilledProperty()
     {
         $validations = [
-            'checkbox' => 'checkbox must be checked'
+            'checkbox' => 'checkbox must be checked',
         ];
         $this->object->setCheckbox(false);
         $event = $this->getEvent($this->object);
 
         $notCheck = new IsNotCheck($event, $this->object, $validations);
         $notCheck->lookup();
-        $this->assertTrue($event->isBlocked());
+        $this->assertFalse($event->isBlocked());
     }
 
     public function testWithEmptyProperty()
     {
         $validations = [
-            'checkbox' => 'Checkbox can\'t be checked'
+            'checkbox' => 'Checkbox can\'t be checked',
         ];
-        $this->object->setCheckbox(false);
-        $event   = $this->getEvent($this->object);
+        $this->object->setCheckbox(true);
+        $event    = $this->getEvent($this->object);
         $notCheck = new IsNotCheck($event, $this->object, $validations);
         $notCheck->lookup();
         $blockers = $event->getTransitionBlockerList();
