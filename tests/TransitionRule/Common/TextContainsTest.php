@@ -1,9 +1,9 @@
 <?php
 
-namespace Chunkwan\WorkflowReviser\Component\TransitionRule\Common;
+namespace ChunKwan\WorkflowReviser\Component\TransitionRule\Common;
 
-use Chunkwan\WorkflowReviser\Tests\TransitionRule\Common\Entity;
-use Chunkwan\WorkflowReviser\Tests\WorkflowEventTestCase;
+use ChunKwan\WorkflowReviser\Tests\TransitionRule\Common\Entity;
+use ChunKwan\WorkflowReviser\Tests\WorkflowEventTestCase;
 
 class TextContainsTest extends WorkflowEventTestCase
 {

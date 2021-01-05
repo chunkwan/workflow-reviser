@@ -1,6 +1,6 @@
 <?php
 
-namespace Chunkwan\WorkflowReviser\Tests\TransitionRule\Numerical;
+namespace ChunKwan\WorkflowReviser\Tests\TransitionRule\Numerical;
 
 class Entity
 {

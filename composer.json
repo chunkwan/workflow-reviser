@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "php": ">=7.2.5",
+        "php": ">=7.4",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "symfony/framework-bundle": "5.2.*",
@@ -30,12 +30,12 @@
 
     "autoload": {
         "psr-4": {
-            "Chunkwan\\WorkflowReviser\\": "src/"
+            "ChunKwan\\WorkflowReviser\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Chunkwan\\WorkflowReviser\\Tests\\": "tests/"
+            "ChunKwan\\WorkflowReviser\\Tests\\": "tests/"
         }
     },
     "scripts": {

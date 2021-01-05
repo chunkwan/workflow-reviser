@@ -1,9 +1,9 @@
 <?php
 
-namespace Chunkwan\WorkflowReviser\Tests\TransitionRule\Common;
+namespace ChunKwan\WorkflowReviser\Tests\TransitionRule\Common;
 
-use Chunkwan\WorkflowReviser\Component\TransitionRule\Common\NotNull;
-use Chunkwan\WorkflowReviser\Tests\WorkflowEventTestCase;
+use ChunKwan\WorkflowReviser\Component\TransitionRule\Common\NotNull;
+use ChunKwan\WorkflowReviser\Tests\WorkflowEventTestCase;
 
 class NotNullTest extends WorkflowEventTestCase
 {

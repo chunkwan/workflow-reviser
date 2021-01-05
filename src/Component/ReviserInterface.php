@@ -1,6 +1,6 @@
 <?php
 
-namespace Chunkwan\WorkflowReviser\Component;
+namespace ChunKwan\WorkflowReviser\Component;
 
 use Symfony\Component\Workflow\Event\GuardEvent;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Chunkwan\WorkflowReviser\Tests\TransitionRule\CheckBox;
+namespace ChunKwan\WorkflowReviser\Tests\TransitionRule\CheckBox;
 
 class Entity
 {

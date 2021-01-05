@@ -1,8 +1,8 @@
 <?php
 
-namespace Chunkwan\WorkflowReviser\Component\TransitionRule\CheckBox;
+namespace ChunKwan\WorkflowReviser\Component\TransitionRule\CheckBox;
 
-use Chunkwan\WorkflowReviser\Component\AbstractReviser;
+use ChunKwan\WorkflowReviser\Component\AbstractReviser;
 
 class IsNotCheck extends AbstractReviser
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Chunkwan\WorkflowReviser\Tests\TransitionRule\DateTime;
+namespace ChunKwan\WorkflowReviser\Tests\TransitionRule\DateTime;
 
 class Entity
 {

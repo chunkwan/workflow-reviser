@@ -1,9 +1,9 @@
 <?php
 
-namespace Chunkwan\WorkflowReviser\Tests\TransitionRule\CheckBox;
+namespace ChunKwan\WorkflowReviser\Tests\TransitionRule\CheckBox;
 
-use Chunkwan\WorkflowReviser\Component\TransitionRule\CheckBox\IsCheck;
-use Chunkwan\WorkflowReviser\Tests\WorkflowEventTestCase;
+use ChunKwan\WorkflowReviser\Component\TransitionRule\CheckBox\IsCheck;
+use ChunKwan\WorkflowReviser\Tests\WorkflowEventTestCase;
 
 class IsCheckTest extends WorkflowEventTestCase
 {
