@@ -1,6 +1,6 @@
 <?php
 
-namespace Chunkwan\WorkflowReviser\Tests\TransitionRule\Countable;
+namespace ChunKwan\WorkflowReviser\Tests\TransitionRule\Countable;
 
 use Doctrine\Common\Collections\ArrayCollection;
 

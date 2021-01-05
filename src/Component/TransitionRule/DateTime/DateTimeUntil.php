@@ -1,8 +1,8 @@
 <?php
 
-namespace Chunkwan\WorkflowReviser\Component\TransitionRule\DateTime;
+namespace ChunKwan\WorkflowReviser\Component\TransitionRule\DateTime;
 
-use Chunkwan\WorkflowReviser\Component\AbstractReviser;
+use ChunKwan\WorkflowReviser\Component\AbstractReviser;
 use DateTimeInterface;
 
 class DateTimeUntil extends AbstractReviser

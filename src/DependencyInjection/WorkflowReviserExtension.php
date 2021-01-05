@@ -6,7 +6,7 @@
  * Time: 17:32.
  */
 
-namespace Chunkwan\WorkflowReviser\DependencyInjection;
+namespace ChunKwan\WorkflowReviser\DependencyInjection;
 
 use Exception;
 use Symfony\Component\Config\FileLocator;

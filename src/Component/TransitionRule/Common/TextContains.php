@@ -1,8 +1,8 @@
 <?php
 
-namespace Chunkwan\WorkflowReviser\Component\TransitionRule\Common;
+namespace ChunKwan\WorkflowReviser\Component\TransitionRule\Common;
 
-use Chunkwan\WorkflowReviser\Component\AbstractReviser;
+use ChunKwan\WorkflowReviser\Component\AbstractReviser;
 
 class TextContains extends AbstractReviser
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Chunkwan\WorkflowReviser\EventSubscriber;
+namespace ChunKwan\WorkflowReviser\EventSubscriber;
 
-use Chunkwan\WorkflowReviser\Component\ReviserInterface;
-use Chunkwan\WorkflowReviser\Component\WorkflowReviser;
+use ChunKwan\WorkflowReviser\Component\ReviserInterface;
+use ChunKwan\WorkflowReviser\Component\WorkflowReviser;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\Workflow\Event\GuardEvent;
 

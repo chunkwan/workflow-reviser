@@ -1,11 +1,11 @@
 <?php
 
-namespace Chunkwan\WorkflowReviser\Tests\TransitionRule\DateTime;
+namespace ChunKwan\WorkflowReviser\Tests\TransitionRule\DateTime;
 
-use Chunkwan\WorkflowReviser\Component\TransitionRule\Date\DateBefore;
-use Chunkwan\WorkflowReviser\Component\TransitionRule\Date\DateEqual;
-use Chunkwan\WorkflowReviser\Component\TransitionRule\Date\DateUntil;
-use Chunkwan\WorkflowReviser\Tests\WorkflowEventTestCase;
+use ChunKwan\WorkflowReviser\Component\TransitionRule\Date\DateBefore;
+use ChunKwan\WorkflowReviser\Component\TransitionRule\Date\DateEqual;
+use ChunKwan\WorkflowReviser\Component\TransitionRule\Date\DateUntil;
+use ChunKwan\WorkflowReviser\Tests\WorkflowEventTestCase;
 
 class DateTimeTest extends WorkflowEventTestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Chunkwan\WorkflowReviser;
+namespace ChunKwan\WorkflowReviser;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

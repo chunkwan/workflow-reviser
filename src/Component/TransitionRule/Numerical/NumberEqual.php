@@ -1,8 +1,8 @@
 <?php
 
-namespace Chunkwan\WorkflowReviser\Component\TransitionRule\Numerical;
+namespace ChunKwan\WorkflowReviser\Component\TransitionRule\Numerical;
 
-use Chunkwan\WorkflowReviser\Component\AbstractReviser;
+use ChunKwan\WorkflowReviser\Component\AbstractReviser;
 
 class NumberEqual extends AbstractReviser
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Chunkwan\WorkflowReviser\Tests\TransitionRule\Countable;
+namespace ChunKwan\WorkflowReviser\Tests\TransitionRule\Countable;
 
-use Chunkwan\WorkflowReviser\Component\TransitionRule\Countable\CountLess;
-use Chunkwan\WorkflowReviser\Tests\WorkflowEventTestCase;
+use ChunKwan\WorkflowReviser\Component\TransitionRule\Countable\CountLess;
+use ChunKwan\WorkflowReviser\Tests\WorkflowEventTestCase;
 
 class CountLessTest extends WorkflowEventTestCase
 {

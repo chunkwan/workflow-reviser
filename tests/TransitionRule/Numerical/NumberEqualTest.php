@@ -1,9 +1,9 @@
 <?php
 
-namespace Chunkwan\WorkflowReviser\Tests\TransitionRule\Numerical;
+namespace ChunKwan\WorkflowReviser\Tests\TransitionRule\Numerical;
 
-use Chunkwan\WorkflowReviser\Component\TransitionRule\Numerical\NumberEqual;
-use Chunkwan\WorkflowReviser\Tests\WorkflowEventTestCase;
+use ChunKwan\WorkflowReviser\Component\TransitionRule\Numerical\NumberEqual;
+use ChunKwan\WorkflowReviser\Tests\WorkflowEventTestCase;
 
 class NumberEqualTest extends WorkflowEventTestCase
 {

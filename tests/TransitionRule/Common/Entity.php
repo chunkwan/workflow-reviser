@@ -1,6 +1,6 @@
 <?php
 
-namespace Chunkwan\WorkflowReviser\Tests\TransitionRule\Common;
+namespace ChunKwan\WorkflowReviser\Tests\TransitionRule\Common;
 
 class Entity
 {
